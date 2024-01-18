@@ -107,6 +107,32 @@ The `arithmeticOperation` module contains functions for basic arithmetic operati
 
 #
 
+## 4. Email Slicer :scissors:
+
+The `main.py` script slices an email address into its components, including the username, domain, and extension.
+
+### Functionality :gear:
+
+1. **Display Welcome Message :wave:**
+   - Displays a welcome message and instructions to close the program.
+
+2. **User Input for Email Address :keyboard:**
+   - Takes user input for the email address.
+
+3. **Slice Email Components :scissors:**
+   - Slices the email address into username, domain, and extension.
+
+4. **Print Sliced Components :page_with_curl:**
+   - Prints the sliced components of the email address.
+
+### Usage :wrench:
+
+1. Run the script using `python main.py`.
+2. Input your email address when prompted.
+3. View the sliced components displayed on the console.
+
+#
+
 # Helpers
 
 ## Helpers Function for Reading JSON Configuration :file_folder:
