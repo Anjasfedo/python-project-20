@@ -1,18 +1,18 @@
 # Import the sys module to manipulate Python runtime settings
-import smtplib
-import ssl
-from email.message import EmailMessage
-from helpers import helpers as hh
 import sys
 
 # Append the path of the project directory to the system path
 sys.path.append('../../python-project-20')
 
 # Import the readJson function from the helpers module and alias it as hh
+from helpers import helpers as hh
 
 # Import the EmailMessage class from the email.message module
+from email.message import EmailMessage
 
 # Import the ssl and smtplib modules for secure email communication
+import smtplib
+import ssl
 
 # Set the email sender's address
 emailSender = "fedohyou@gmail.com"
