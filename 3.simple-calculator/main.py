@@ -1,24 +1,4 @@
-def add(a, b):
-    result = a + b
-    print(f"{a} + {b} = {result}\n")
-
-
-def subtract(a, b):
-    result = a - b
-    print(f"{a} - {b} = {result}\n")
-
-
-def multiply(a, b):
-    result = a * b
-    print(f"{a} * {b} = {result}\n")
-
-
-def divide(a, b):
-    if b != 0:
-        result = a / b
-        print(f"{a} / {b} = {result}\n")
-    else:
-        print("Error: Cannot divide by zero.\n")
+from arithmeticOperation import arithmeticOperation as aOpt
 
 
 def checkInput():
@@ -39,19 +19,19 @@ while True:
     if choice.upper() == "A":
         print("Addition")
         a, b = checkInput()
-        add(a, b)
+        aOpt.add(a, b)
     elif choice.upper() == "B":
         print("Subtraction")
         a, b = checkInput()
-        subtract(a, b)
+        aOpt.subtract(a, b)
     elif choice.upper() == "C":
         print("Multiplication")
         a, b = checkInput()
-        multiply(a, b)
+        aOpt.multiply(a, b)
     elif choice.upper() == "D":
         print("Division")
         a, b = checkInput()
-        divide(a, b)
+        aOpt.divide(a, b)
     elif choice.upper() == "E":
         print("Program Ended")
         quit()
