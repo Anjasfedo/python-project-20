@@ -218,6 +218,34 @@ The `main.py` script implements a simple quiz program using questions stored in 
 
 #
 
+# 7. QR Code Generator :qr_code:
+
+The `main.py` script generates a QR code for a given URL using the `qrcode` library.
+
+### Functionality :gear:
+
+1. **Import Libraries :arrow_forward:**
+   - Imports necessary libraries, including `qrcode` and `os`.
+
+2. **Generate QR Code :barcode:**
+   - Utilizes the `qrcode` library to create a QR code for a given URL.
+   - The `os` library is used to handle directory operations.
+
+3. **Save QR Code Image :floppy_disk:**
+   - The generated QR code image is saved in the `images` directory.
+   - The directory is created if it doesn't exist.
+
+4. **Display Image Path :file_folder:**
+   - Prints the path where the QR code image is saved.
+
+### Usage :wrench:
+
+1. Run the script using `python main.py`.
+2. Enter the URL when prompted.
+3. Check the `images` directory for the saved QR code image.
+
+#
+
 # Helpers
 
 ## Helpers Function for Reading JSON Configuration :file_folder:
@@ -249,9 +277,10 @@ The `readJson` function serves as a helper to read values from a JSON configurat
      }
      ```
 2. **Use `readJson` Function :calling:**
+
    - Call the `readJson` function in your main script to retrieve specific values from the configuration file.
 
-```python
-# Example usage in the main script
-email_password = readJson("path/to/config.json", "GMAIL_APP_PASSWORD")
-```
+     ```python
+        # Example usage in the main script
+        email_password = readJson("path/to/config.json", "GMAIL_APP_PASSWORD")
+     ```
