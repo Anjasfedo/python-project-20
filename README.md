@@ -218,7 +218,7 @@ The `main.py` script implements a simple quiz program using questions stored in 
 
 #
 
-# 7. QR Code Generator :qr_code:
+## 7. QR Code Generator ⬜⬛⬜
 
 The `main.py` script generates a QR code for a given URL using the `qrcode` library.
 
