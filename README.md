@@ -180,6 +180,44 @@ The `binarySearch` function demonstrates a binary search algorithm to find an el
 
 #
 
+## 6. Quiz Program :question:
+
+The `main.py` script implements a simple quiz program using questions stored in the `questions.py` module.
+
+### Functionality :gear:
+
+1. **Quiz Loop :repeat:**
+
+   - Iterates through each question in the quiz.
+
+2. **Display Question :speech_balloon:**
+
+   - Prints the current question.
+
+3. **User Input for Answer :keyboard:**
+
+   - Takes user input for the answer.
+
+4. **Check Answer :white_check_mark:**
+
+   - Compares the user's answer with the correct answer.
+
+5. **Score Tracking :1234:**
+
+   - Updates the user's score based on correct answers.
+
+6. **Display Results :trophy:**
+   - Prints whether each answer is correct or wrong.
+   - Displays the final score at the end of the quiz.
+
+### Usage :wrench:
+
+1. Run the script using `python main.py`.
+2. Answer each quiz question prompted.
+3. View the correctness of your answers and your final score at the end.
+
+#
+
 # Helpers
 
 ## Helpers Function for Reading JSON Configuration :file_folder:
