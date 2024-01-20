@@ -1,3 +1,5 @@
+import os
+
 def main():
     # Display a welcome message
     print("This is a monthly payment loan calculator")
@@ -19,9 +21,16 @@ def main():
     print(f"The monthly payment for this loan is: ${monthlyPayment:.2f}")
     print("")
     print("")
+    
+    # Specify the text file directory and create it if it doesn't exist
+    save_directory = os.path.abspath("texts")
+    os.makedirs(save_directory, exist_ok=True)
+        
+    # Specify the text file path and save the result to a text file
+    text_path = os.path.join(save_directory, "interest_payment_calculator_result.txt")
 
     # Save the result to a text file named "interest_payment_calculator_result.txt"
-    with open("interest_payment_calculator_result.txt", "w") as file:
+    with open(text_path, "w") as file:
         file.write(f"The monthly payment for this loan is: ${monthlyPayment:.2f}")
 
 if __name__ == "__main__":

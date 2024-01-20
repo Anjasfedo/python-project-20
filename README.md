@@ -256,38 +256,32 @@ The `main.py` script calculates the monthly payment for a loan based on the loan
 ### Functionality :gear:
 
 1. **Display Welcome Message :wave:**
-
    - Displays a welcome message introducing the monthly payment loan calculator.
 
 2. **User Input for Loan Details :keyboard:**
-
    - Takes user input for the loan amount, annual interest rate, and the number of years.
 
 3. **Calculate Monthly Interest Rate :1234:**
-
    - Calculates the monthly interest rate based on the annual interest rate.
 
 4. **Calculate Total Number of Months :calendar:**
-
    - Calculates the total number of months for the loan based on the number of years.
 
 5. **Calculate Monthly Payment :money_with_wings:**
-
    - Uses the loan formula to calculate the monthly payment.
 
 6. **Display Monthly Payment :computer:**
-
    - Prints the calculated monthly payment with 2 decimal places on the console.
 
 7. **Save Result to Text File :floppy_disk:**
-   - Saves the calculated monthly payment to a text file named "interest_payment_calculator_result.txt".
+   - Saves the calculated monthly payment to a text file named "interest_payment_calculator_result.txt" inside the "texts" directory.
 
 ### Usage :wrench:
 
 1. Run the script using `python main.py`.
 2. Input the loan amount, annual interest rate, and the number of years when prompted.
 3. View the calculated monthly payment on the console.
-4. Check the "interest_payment_calculator_result.txt" file for the saved result.
+4. Check the "texts/interest_payment_calculator_result.txt" file for the saved result.
 
 #
 
