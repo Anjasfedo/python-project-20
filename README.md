@@ -322,6 +322,87 @@ The `password_generator.py` script generates a random password based on user inp
 
 #
 
+# 10. Dice Rolling :game_die:
+
+The `main.py` script simulates rolling two six-sided dice and displays the results using ASCII art.
+
+### Functionality :gear:
+
+1. **Dice Representation :art:**
+
+   - Defines ASCII art representations for each possible face of a six-sided die.
+   - ASCII art is stored in a dictionary (`diceDrawing`) with keys representing the numbers 1 to 6.
+
+2. **Roll Dice Function :game_die:**
+
+   - Prompts the user if they want to roll the dice.
+   - Continues rolling as long as the user responds with 'Yes'.
+   - Generates random numbers for two dice rolls.
+   - Displays the result of the dice rolls and the corresponding ASCII art.
+   - Prompts the user if they want to roll again.
+
+3. **Random Number Generation :game_die:**
+   - Utilizes the `random` module to generate random numbers for dice rolls.
+
+### Usage :wrench:
+
+1. Run the script using `python main.py`.
+2. Input 'Yes' when prompted to roll the dice.
+3. View the results of the dice rolls and corresponding ASCII art.
+4. Choose to roll again or end the program.
+
+#
+
+# 11. Site Connectivity Checker :globe_with_meridians:
+
+The `main.py` script checks the connectivity of a specified website by attempting to open a connection to the provided URL.
+
+### Functionality :gear:
+
+1. **Main Function :mag_right:**
+
+   - Defines a function named `main` that takes a URL as a parameter.
+   - Opens a connection to the specified URL using `urllib.urlopen`.
+   - Displays a message indicating successful connection along with the response code.
+
+2. **Site Connectivity Check :globe_with_meridians:**
+   - Prompts the user to input the domain of the site (e.g., "google.com").
+   - Constructs a full URL by adding "https://www." as a prefix to the user-provided domain.
+   - Calls the `main` function, passing the constructed full URL, to check the site's connectivity.
+
+### Usage :wrench:
+
+1. Run the script using `python main.py`.
+2. Input the domain of the site when prompted.
+3. View the messages indicating the site's connectivity and response code.
+
+#
+
+# 12. Currency Converter :money_exchange:
+
+The `main.py` script converts US dollars to Pound Sterling using a fixed exchange rate.
+
+### Functionality :gear:
+
+1. **Main Function :money_with_wings:**
+
+   - Defines a function named `main`.
+   - Displays a message indicating the purpose of the script.
+   - Prompts the user to input a dollar amount using `eval` to evaluate the input as a Python expression.
+   - Calls the `convert_to_pounds` function to convert dollars to pounds.
+   - Displays the result of the conversion.
+
+2. **Conversion Function :currency_exchange:**
+   - Uses a lambda function named `convert_to_pounds` to convert dollars to pounds using a fixed exchange rate.
+
+### Usage :wrench:
+
+1. Run the script using `python main.py`.
+2. Input the dollar amount when prompted.
+3. View the converted amount in pounds sterling.
+
+#
+
 # Helpers
 
 ## Helpers Function for Reading JSON Configuration :file_folder:
