@@ -403,6 +403,67 @@ The `main.py` script converts US dollars to Pound Sterling using a fixed exchang
 
 #
 
+# 13. Leap Year Checker :date:
+
+The `is_leap_year` function checks if a given year is a leap year or not.
+
+### Functionality :gear:
+
+1. **Leap Year Checking :calendar:**
+   - The function takes a `year` as an argument.
+   - Checks if the year is divisible by 4.
+   - If divisible by 4, it further checks if it is divisible by 100.
+     - If divisible by 100, it checks if it is divisible by 400.
+       - If divisible by 400, prints "Leap year."
+       - If not divisible by 400, prints "Not leap year."
+     - If not divisible by 100, prints "Leap year."
+   - If not divisible by 4, prints "Not leap year."
+
+### Usage :wrench:
+
+1. Call the function `is_leap_year` with the desired year as an argument.
+   ```python
+   is_leap_year(2000)
+   ```
+2. The function will print whether the given year is a leap year or not.
+   Example Output: "Leap year" (for the year 2000)
+
+#
+
+# 14. Word Meaning Checker :book:
+
+The script utilizes the `PyDictionary` library to retrieve the meaning of a given word.
+
+### Functionality :gear:
+
+1. **Import PyDictionary :open_book:**
+   - Imports the `PyDictionary` class from the `PyDictionary` module.
+
+2. **Create PyDictionary Instance :factory:**
+   - Creates an instance of the `PyDictionary` class named `dictionaries`.
+
+3. **Input Loop :repeat:**
+   - Initiates an infinite loop using `while True`.
+
+4. **User Input for Word :keyboard:**
+   - Prompts the user to enter a word.
+
+5. **Check for Empty Input :white_check_mark:**
+   - Checks if the entered word is an empty string.
+     - If empty, exits the loop.
+
+6. **Retrieve and Display Meaning :mag:**
+   - Uses the `meaning` method of the `PyDictionary` class to retrieve the meaning of the entered word.
+   - Prints the meaning to the console.
+
+### Usage :wrench:
+
+1. Run the script and input a word when prompted.
+2. View the meaning of the entered word on the console.
+3. To exit the loop, simply press Enter without typing a word.
+
+#
+
 # Helpers
 
 ## Helpers Function for Reading JSON Configuration :file_folder:
