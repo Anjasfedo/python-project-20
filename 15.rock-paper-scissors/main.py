@@ -21,6 +21,8 @@ while is_exit == False:
     
     if user_input == "exit":
         print("Game ended")
+        print(f"You got {user_points} points")
+        print(f"Computer got {computer_points} points")
         is_exit = True
         
     if user_input == "rock":
@@ -59,6 +61,3 @@ while is_exit == False:
             print_input(user_input=user_input, computer_input=computer_input)
             print("You win")
             user_points += 1
-        
-
-
